@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  nft-shill:
+    build: .
+    volumes:
+      - ./pers:/usr/bin/src/webapp/pers
